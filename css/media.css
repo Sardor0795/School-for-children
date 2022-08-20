@@ -192,7 +192,7 @@
 
 @media (max-width: 400px) {
   .hero {
-    min-height: 810px;
+    min-height: 800px;
     background-position: center top 45px;
   }
   .content__title {
