@@ -176,7 +176,7 @@
 
 @media (max-width: 600px) {
   .hero {
-    min-height: 1000px;
+    min-height: 980px;
     background-position: center top 60px;
     background-size: contain;
     display: flex;
@@ -192,7 +192,7 @@
 
 @media (max-width: 400px) {
   .hero {
-    min-height: 825px;
+    min-height: 810px;
     background-position: center top 45px;
   }
   .content__title {
