@@ -118,6 +118,20 @@ button {
   background: none;
 }
 
+/* BODY SCROLL */
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--btn-bg-color);
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(199, 194, 194);
+}
+
 /* CONTAINER */
 
 .container {
