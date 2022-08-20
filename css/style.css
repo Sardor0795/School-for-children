@@ -226,7 +226,15 @@ select:-webkit-autofill:focus {
   border-radius: 5px;
   padding: 11px 34px;
   color: var(--black);
+  border: 3px solid transparent;
   background-color: var(--white);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  color: var(--white);
+  border-color: var(--white);
+  background-color: var(--main-color);
 }
 
 .header__burger,
@@ -238,6 +246,9 @@ select:-webkit-autofill:focus {
 
 .hero {
   background-color: var(--hero-bg);
+  background-image: url("../img/ребенок.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .hero__container {
@@ -250,7 +261,7 @@ select:-webkit-autofill:focus {
 
 .content {
   width: 50%;
-  padding-top: 180px;
+  padding: 180px 0 142px 0;
 }
 
 .content__title {
@@ -281,17 +292,17 @@ select:-webkit-autofill:focus {
   padding: 5px 32px;
   border-radius: 10px;
   border: 3px solid var(--main-color);
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .content__btn:first-child {
   margin-right: 40px;
 }
 
-.active {
+.active,
+.content__btn:hover {
   background-color: var(--btn-bg-color);
   color: var(--white);
-}
-.hero__img {
 }
 
 /* RETINA BG */
