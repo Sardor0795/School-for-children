@@ -20,6 +20,12 @@
   .header__nav {
     margin-right: auto;
   }
+  .content__title {
+    font-size: 38px;
+  }
+  .content__btn {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1160px) {
@@ -31,7 +37,6 @@
   }
   .header__logo-img {
     width: 130px;
-    aspect-ratio: 1/1;
   }
   .nav__item:not(:last-child) {
     margin-right: 30px;
@@ -40,12 +45,18 @@
     border-radius: 5px;
     padding: 8px 28px;
   }
+  .content__title {
+    font-size: 34px;
+  }
+  .content__text {
+    font-size: 16px;
+  }
+  .content__btn {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 870px) {
-  .header {
-    padding: 4px 0;
-  }
   .header__logo-img {
     width: 110px;
   }
@@ -81,9 +92,6 @@
   .header__burger,
   .header__phone {
     display: block;
-  }
-  .header {
-    padding: 0;
   }
   .header__logo-img {
     width: 80px;
