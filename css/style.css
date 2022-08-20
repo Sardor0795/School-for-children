@@ -246,7 +246,7 @@ select:-webkit-autofill:focus {
 
 .hero {
   background-color: var(--hero-bg);
-  background-image: url("../img/ребенок.png");
+  background-image: url("../img/hero-img.png");
   background-repeat: no-repeat;
   background-position: left calc(50% + 400px) bottom;
 }
