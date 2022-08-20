@@ -4,6 +4,53 @@
   --main-color: #5855e7;
 }
 
+/* FONTS */
+
+@font-face {
+  font-family: "Glory";
+  src: url("../fonts/Glory-Light.woff2") format("woff2"),
+    url("../fonts/Glory-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glory";
+  src: url("../fonts/Glory-Bold.woff2") format("woff2"),
+    url("../fonts/Glory-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glory";
+  src: url("../fonts/Glory-SemiBold.woff2") format("woff2"),
+    url("../fonts/Glory-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glory";
+  src: url("../fonts/Glory-Medium.woff2") format("woff2"),
+    url("../fonts/Glory-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glory";
+  src: url("../fonts/Glory-Regular.woff2") format("woff2"),
+    url("../fonts/Glory-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* GLOBAL */
 
 html {
@@ -28,7 +75,7 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  font-family: "Arial", sans-serif;
+  font-family: "Glory", "Arial", sans-serif;
   padding: 0;
   margin: 0;
 }
