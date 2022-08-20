@@ -66,8 +66,7 @@ html {
 }
 
 *:focus {
-  outline: 2px dashed var(--main-color);
-  outline-offset: 3px;
+  outline: unset;
 }
 
 body {
@@ -221,6 +220,11 @@ select:-webkit-autofill:focus {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+}
+
+.header__burger,
+.header__phone {
+  display: none;
 }
 
 /* RETINA BG */
