@@ -312,7 +312,6 @@ select:-webkit-autofill:focus {
   margin-right: 40px;
 }
 
-.active,
 .content__btn:hover {
   background-color: var(--btn-bg-color);
   color: var(--white);
