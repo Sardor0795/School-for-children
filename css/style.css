@@ -1,7 +1,7 @@
 /* CUSTOM PROPERTIES */
 
 :root {
-  --main-color: #3f3f3f;
+  --main-color: #5855e7;
 }
 
 /* GLOBAL */
@@ -28,12 +28,9 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  color: #222;
   font-family: "Arial", sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 a {
