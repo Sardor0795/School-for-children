@@ -55,7 +55,8 @@
     font-size: 25px;
   }
   .hero {
-    background-position: left calc(50% + 400px) bottom -50px;
+    background-position: left calc(50% + 335px) bottom -59px;
+    background-size: contain;
   }
 }
 
@@ -88,7 +89,7 @@
     margin-right: 35px;
   }
   .hero {
-    background-position: left calc(50% + 323px) bottom -80px;
+    background-position: left calc(50% + 300px) bottom -50px;
   }
 }
 
@@ -123,7 +124,7 @@
     margin-right: 30px;
   }
   .hero {
-    background-position: left calc(50% + 285px) bottom -150px;
+    background-position: left calc(50% + 243px) bottom -41px;
   }
 }
 
@@ -163,7 +164,7 @@
     margin-right: 30px;
   }
   .hero {
-    min-height: 1020px;
+    min-height: 1070px;
     background-position: center top 60px;
     display: flex;
     align-items: flex-end;
@@ -175,7 +176,7 @@
 
 @media (max-width: 600px) {
   .hero {
-    min-height: 1020px;
+    min-height: 1000px;
     background-position: center top 60px;
     background-size: contain;
     display: flex;
