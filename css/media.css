@@ -85,4 +85,7 @@
   .header {
     padding: 0;
   }
+  .header__logo-img {
+    width: 80px;
+  }
 }
