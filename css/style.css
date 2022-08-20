@@ -2,6 +2,10 @@
 
 :root {
   --main-color: #5855e7;
+  --hero-bg: #fafafa;
+  --btn-color: #6347eb;
+  --black: #000;
+  --white: #fff;
 }
 
 /* FONTS */
@@ -70,20 +74,26 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: var(--black);
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-color: #fff;
+  background-color: var(--white);
   font-family: "Glory", "Arial", sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
+ul,
+li,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -195,9 +205,6 @@ select:-webkit-autofill:focus {
   margin-right: 72px;
 }
 
-.nav {
-}
-
 .nav__list {
   display: flex;
   align-items: center;
@@ -210,21 +217,66 @@ select:-webkit-autofill:focus {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .btn {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 5px;
   padding: 11px 34px;
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
+  color: var(--black);
 }
 
 .header__burger,
 .header__phone {
   display: none;
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--hero-bg);
+}
+
+.hero__container {
+  display: flex;
+}
+
+.hero__content {
+  width: 50%;
+}
+
+.content {
+  width: 50%;
+  padding-top: 180px;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.hero__bold {
+  color: var(--main-color);
+}
+
+.content__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content__btns {
+}
+.content__btn {
+}
+.active {
+}
+.hero__img {
 }
 
 /* RETINA BG */
