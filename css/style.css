@@ -113,7 +113,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1264px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -157,10 +157,70 @@ select:-webkit-autofill:focus {
   overflow: hidden;
 }
 
+/* LINK ACTIVE STATES */
+
+.click:active {
+  transform: translateY(2px);
+}
+
 /* MAIN CONTENT */
 
 .main-content {
   flex-grow: 1;
+}
+
+/* HEADER */
+
+.header {
+  padding: 16px 0;
+  background-color: var(--main-color);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-link {
+  display: flex;
+  margin-right: auto;
+  margin-left: -43px;
+}
+
+.header__logo-img {
+  width: 156px;
+  height: 111px;
+}
+
+.header__nav {
+  margin-right: 72px;
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 42px;
+}
+.nav__link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 11px 34px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
 
 /* RETINA BG */
