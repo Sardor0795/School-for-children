@@ -4,7 +4,7 @@
   --white: #fff;
   --black: #000;
   --hero-bg: #fafafa;
-  --btn-color: #6347eb;
+  --btn-bg-color: #6347eb;
   --main-color: #5855e7;
 }
 
@@ -272,10 +272,24 @@ select:-webkit-autofill:focus {
 }
 
 .content__btns {
+  display: flex;
 }
+
 .content__btn {
+  font-size: 32px;
+  line-height: 38px;
+  padding: 5px 32px;
+  border-radius: 10px;
+  border: 3px solid var(--main-color);
 }
+
+.content__btn:first-child {
+  margin-right: 40px;
+}
+
 .active {
+  background-color: var(--btn-bg-color);
+  color: var(--white);
 }
 .hero__img {
 }
@@ -283,9 +297,9 @@ select:-webkit-autofill:focus {
 /* RETINA BG */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
