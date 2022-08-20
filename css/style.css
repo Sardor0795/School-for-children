@@ -1,11 +1,11 @@
 /* CUSTOM PROPERTIES */
 
 :root {
-  --main-color: #5855e7;
+  --white: #fff;
+  --black: #000;
   --hero-bg: #fafafa;
   --btn-color: #6347eb;
-  --black: #000;
-  --white: #fff;
+  --main-color: #5855e7;
 }
 
 /* FONTS */
@@ -58,8 +58,8 @@
 /* GLOBAL */
 
 html {
-  box-sizing: border-box;
   height: 100%;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -77,8 +77,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  color: var(--black);
   display: flex;
+  color: var(--black);
   flex-direction: column;
   background-color: var(--white);
   font-family: "Glory", "Arial", sans-serif;
@@ -114,19 +114,19 @@ button {
 
 button {
   border: none;
-  background: none;
   cursor: pointer;
+  background: none;
 }
 
 /* CONTAINER */
 
 .container {
   width: 100%;
+  margin-left: auto;
   max-width: 1204px;
+  margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* PLACEHOLDER STYLE */
@@ -156,14 +156,14 @@ select:-webkit-autofill:focus {
 /* ELEMENT HIDER */
 
 .visually-hidden {
-  position: absolute;
+  border: 0;
+  padding: 0;
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
   overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
 }
 
 /* LINK ACTIVE STATES */
@@ -214,19 +214,19 @@ select:-webkit-autofill:focus {
   margin-right: 42px;
 }
 .nav__link {
-  font-weight: 500;
   font-size: 24px;
+  font-weight: 500;
   line-height: 29px;
   color: var(--white);
 }
 
 .btn {
-  background-color: var(--white);
-  border-radius: 5px;
-  padding: 11px 34px;
   font-size: 24px;
   line-height: 28px;
+  border-radius: 5px;
+  padding: 11px 34px;
   color: var(--black);
+  background-color: var(--white);
 }
 
 .header__burger,
@@ -254,8 +254,8 @@ select:-webkit-autofill:focus {
 }
 
 .content__title {
-  font-weight: 700;
   font-size: 40px;
+  font-weight: 700;
   line-height: 50px;
   margin-bottom: 40px;
 }
@@ -265,9 +265,10 @@ select:-webkit-autofill:focus {
 }
 
 .content__text {
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 22px;
+  margin-bottom: 50px;
 }
 
 .content__btns {
@@ -282,9 +283,9 @@ select:-webkit-autofill:focus {
 /* RETINA BG */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
