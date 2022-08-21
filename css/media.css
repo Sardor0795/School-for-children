@@ -172,6 +172,16 @@
   .content__btns {
     justify-content: center;
   }
+
+  /* MOBILE MODAL WINDOW */
+
+  .mobile {
+    display: block;
+    transform: translateY(-1000px);
+  }
+  .mobile.active {
+    transform: translateX(0);
+  }
 }
 
 @media (max-width: 600px) {
