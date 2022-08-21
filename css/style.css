@@ -277,12 +277,16 @@ select:-webkit-autofill:focus {
 .mobile__header {
   display: flex;
   align-items: center;
-  padding: 13px 0;
-  margin-bottom: 30px;
+  padding: 20px 0;
+  margin-bottom: 25px;
 }
 
 .mobile .header__logo-link {
-  margin-left: 0;
+  margin-left: -10px;
+}
+
+.mobile .container {
+  padding: 0px 30px;
 }
 
 .close__img {
