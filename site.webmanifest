@@ -1,0 +1,14 @@
+{
+    "name": "School",
+    "short_name": "School",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4344c3",
+    "background_color": "#4344c3",
+    "display": "standalone"
+}
